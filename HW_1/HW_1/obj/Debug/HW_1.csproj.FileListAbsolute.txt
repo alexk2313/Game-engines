@@ -1,0 +1,7 @@
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\bin\Debug\HW_1.exe.config
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\bin\Debug\HW_1.exe
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\bin\Debug\HW_1.pdb
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\obj\Debug\HW_1.csprojAssemblyReference.cache
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\obj\Debug\HW_1.csproj.CoreCompileInputs.cache
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\obj\Debug\HW_1.exe
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\HW_1\HW_1\obj\Debug\HW_1.pdb
