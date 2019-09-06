@@ -49,25 +49,32 @@ namespace HW_1
             {
                 myNumbers[i] = i + randomNumber;
             }
+
+            int numCorrect = 0;
+
             for (int i = 0; i < myNumbers.Length; i++)
             {
-                Console.WriteLine("What is " + age + "+" + myNumbers[i]);
-            }
+                Console.WriteLine("What is " + age + "+" + myNumbers[i] + "?");
+                
+                //user answer
 
-            //user answer
-            int userAnswer = Convert.ToInt32(Console.ReadLine());
+                int userAnswer = Convert.ToInt32(Console.ReadLine());
 
-            //get actual answer
-            int actualAnswer = age + myNumbers[0]; 
-            //compare answers
-            if(userAnswer == actualAnswer)
-            {
-                Console.WriteLine("good job!");
+                //get actual answer
+                int actualAnswer = age + myNumbers[i];
+                //compare answers
+                if (userAnswer == actualAnswer)
+                {
+                    Console.WriteLine("good job!");
+                    numCorrect += 1;
+                }
+                else
+                {
+                    Console.WriteLine("That is not correct");
+                }
             }
-            else
-            {
-                Console.WriteLine("That is not correct");
-            }
+            Console.WriteLine("You got " + numCorrect + " out of 10 correct!");
+            
             Console.ReadLine();
         }
     }
