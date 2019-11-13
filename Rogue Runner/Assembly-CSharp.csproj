@@ -62,11 +62,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BGSoundScript.cs" />
     <Compile Include="Assets\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Scripts\CameraCtrl.cs" />
+    <Compile Include="Assets\Scripts\DoorTransition.cs" />
     <Compile Include="Assets\Scripts\Feet.cs" />
     <Compile Include="Assets\Scripts\Parallax.cs" />
+    <Compile Include="Assets\Scripts\PauseAudio.cs" />
     <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
+    <Compile Include="Assets\Scripts\TransitionTimer.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/alexk/OneDrive/Documents/GitHub/Game-engines/Rogue Runner/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
