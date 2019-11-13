@@ -1,0 +1,2 @@
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\The Upside Down\The Upside Down\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\alexk\OneDrive\Documents\GitHub\Game-engines\The Upside Down\The Upside Down\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
