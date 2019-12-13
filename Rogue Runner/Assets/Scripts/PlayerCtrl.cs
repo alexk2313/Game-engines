@@ -9,7 +9,8 @@ public class PlayerCtrl : MonoBehaviour
 
     public float jumpSpeed;
     public bool isJumping;
-    
+    public bool isAttacking;
+
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -47,7 +48,15 @@ public class PlayerCtrl : MonoBehaviour
             isJumping = true;
         }
 
-
+        if (Input.GetButtonDown("Fire1") && !isAttacking)
+        {
+           
+            isAttacking = true;
+        }
+        else
+        {
+            isAttacking = false;
+        }
 
 
         RunAnimations();
@@ -60,6 +69,7 @@ public class PlayerCtrl : MonoBehaviour
     {
         anim.SetFloat("Movement", Mathf.Abs(move));
         anim.SetBool("isJumping", isJumping);
+        anim.SetBool("isAttacking", isAttacking);
     }
 
 }

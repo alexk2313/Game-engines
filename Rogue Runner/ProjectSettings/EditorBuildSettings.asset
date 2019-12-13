@@ -17,4 +17,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Town.unity
     guid: 1079da533cecf2442b61ebab5ffe420b
+  - enabled: 1
+    path: Assets/Scenes/Town Main.unity
+    guid: 56a9242ff2be76049a60d03e4ae6b49d
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: e174e12ed8c9909469570c197b2f1764
+  - enabled: 1
+    path: Assets/Scenes/Town Exit.unity
+    guid: 9a43f64f3e783964c92063cd50a7eacf
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: bb718401fd3e5d741bb9c1f6a4f88906
   m_configObjects: {}
